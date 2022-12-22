@@ -14,7 +14,7 @@ def cb():
     global n
     msg = Int16()
     msg.data = n
-    talker.pub.publish(msg)
+    pub.publish(msg)
     n += 1
 
 node.create_timer(0.5, cb)
