@@ -1,21 +1,21 @@
+# SPDX-FileCopyrightTest: 2022 Aika katsuki
+# SPDX-License-Identifier: BSD-3-Clause
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int16
 
-class Talker():
-    def __init__(self):
-        self.pub = node.create_publisher(Int16, "countup", 10)
-        self.n = 0
+from std_msgs.msg import Int16
 
 rclpy.init()
 node = Node("talker")
-talker = Talker()
+pub = node.create_publisher(Int16,"countup", 10)
+n = 0
 
 def cb():
+    global n
     msg = Int16()
-    msg.data = talker.n
+    msg.data = n
     talker.pub.publish(msg)
-    talker.n += 1
+    n += 1
 
 node.create_timer(0.5, cb)
 rclpy.spin(node)
