@@ -4,7 +4,7 @@
 ![test](https://github.com/kamemattari/mypkg/actions/workflows/test.yml/badge.svg)
 
 # 説明
-talker(パブリッシャ)とlistener(サブスクライバー)を用いて通信を行っているパッケージです。
+talkerとlistenerを用いてメッセージの通信を行っているパッケージです。
 
  * 使い方
 ```
