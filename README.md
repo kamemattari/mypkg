@@ -1,10 +1,10 @@
 # mypkg
- * ロボットシステム学のROS2のパッケージです。また、ROS2をテストするものです。
+ * ロボットシステム学のROS2のパッケージです。また、ROS2を実際に授業で理解するために使ってみるためのものです。
 
 ![test](https://github.com/kamemattari/mypkg/actions/workflows/test.yml/badge.svg)
 
 # 説明
-talkerとlistenerを用いてメッセージの通信を行っているパッケージです。
+talkerが数字をカウントしてInt16ビット型のメッセージをトピック(countup)でとばし、そのcountupでメッセージをlistenerが受け取って出力しています。
 
  * 使い方
 ```
