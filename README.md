@@ -8,7 +8,7 @@ talker(パブリッシャ)が数字をカウントしてInt16ビット型のメ�
 
  * 使い方
 ```
-$ ros2 run launch mypkg talk_listen.launch.py
+$ ros2 launch mypkg talk_listen.launch.py
 ```
 上記の通りに実行する。
 
