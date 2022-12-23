@@ -4,7 +4,7 @@
 ![test](https://github.com/kamemattari/mypkg/actions/workflows/test.yml/badge.svg)
 
 # 説明
-talkerが数字をカウントしてInt16ビット型のメッセージをトピック(countup)でとばし、そのcountupでメッセージをlistenerが受け取って出力しています。
+talker(パブリッシャ)が数字をカウントしてInt16ビット型のメッセージをトピック(countup)でとばし、そのcountupでメッセージをlistener(サブスクライバー)が受け取って出力しています。
 
  * 使い方
 ```
