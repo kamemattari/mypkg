@@ -12,6 +12,9 @@ talkerとlistenerを用いて通信を行っているパッケージです。
 
  * Python 3.10
 
+# テスト環境
+ * Ubuntu 22.04
+
 # LICENSE
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
  * © 2022 Aika Katsuki
