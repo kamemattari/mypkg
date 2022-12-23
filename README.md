@@ -1,10 +1,10 @@
 # mypkg
- * ロボットシステム学のROS2のパッケージでROS2をテストするものです。
+ * ロボットシステム学のROS2のパッケージです。また、ROS2をテストするものです。
 
 ![test](https://github.com/kamemattari/mypkg/actions/workflows/test.yml/badge.svg)
 
 # 説明
-talkerとlistenerを用いて通信を行っているパッケージです。
+talker(パブリッシャ)とlistener(サブスクライバー)を用いて通信を行っているパッケージです。
 
  * 使い方
 ```
