@@ -13,6 +13,7 @@ $ ros2 run launch mypkg talk_listen.launch.py
 上記の通りに実行する。
 
 # 必要なソフトウェア
+ * ROS2
  * Python 3.10
 
 # テスト環境
