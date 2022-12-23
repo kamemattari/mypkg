@@ -6,6 +6,7 @@ talkerとlistenerを用いて通信を行っているパッケージです。
 
  * 使い方
 ```
+$ ros2 run launch mypkg talk_listen.launch.py
 ```
 
 # 必要なソフトウェア
